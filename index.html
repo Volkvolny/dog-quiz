@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun Fact Dog Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <div class= "quiz-container">
+      <div class= "quiz-header">
+        <h2 id="question"> Question Text</h2>
+        <ul>
+          <li><input type= "radio" name= "answer" id= "a" value= "a">
+            <label id= "aText" for= "a">Question</label>
+          </li>
+          <li><input type= "radio" name= "answer" id= "b" value= "b">
+            <label id= "bText" for= "b">Question</label>
+          </li>
+          <li><input type= "radio" name= "answer" id= "c" value= "c">
+            <label id= "cText" for= "c">Question</label>
+          </li>
+          <li><input type= "radio" name= "answer" id= "d" value= "d">
+            <label id= "dText" for= "d">Question</label>
+          </li>
+        </ul>
+      </div> <!-- close quiz header div -->
+      <button id= "submit">Submit</button>
+      <button id= "restart">Retake Quiz</button>
+    </div> <!-- close quiz container div -->
+  </body>
+</html>
